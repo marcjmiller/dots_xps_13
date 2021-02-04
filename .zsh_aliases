@@ -1,0 +1,40 @@
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh  
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+
+# Dotfiles git
+alias d="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias da="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add"
+alias dau="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add --update"
+alias dc="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -v"
+alias ds="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME status"
+alias dss="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME status -s"
+
+# vi/vim points to Neovim
+alias vi=nvim
+alias vim=nvim
+
+# ssh alias to copy kitty terminfo files
+alias ssh="kitty +kitten ssh"
+
+# Nitrogen set bg from .config/bgimages dir
+alias bgimg="nitrogen $HOME/.config/bgimages/"
+
+# For tweaking zsh configurations
+alias zc="vi $HOME/.zshrc"
+alias za="vi $HOME/.zsh_aliases"
+alias ze="vi $HOME/.zsh_exports"
+alias reload="source $HOME/.zshrc"
+
+# For tweaking .xinitrc
+alias xrc="vi $HOME/.xinitrc"
+
+# For tweaking i3 config
+alias i3c="vi $HOME/.config/i3/config"
+
+# For tweaking vi config
+alias vrc="vi $HOME/.config/nvim/init.vim"
+
+# For tweaking polybar config
+alias pbc="vi $HOME/.config/polybar/config.ini"
