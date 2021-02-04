@@ -8,6 +8,8 @@ alias d="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias da="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add"
 alias dau="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add --update"
 alias dc="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -v"
+alias dl="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME log"
+alias dlog="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME log --oneline --decorate --graph"
 alias ds="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME status"
 alias dss="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME status -s"
 
